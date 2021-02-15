@@ -1,4 +1,13 @@
-@import "config";
+.hero{
+  height: 90vh;
+  background: url(../media/bg/nav-bg.jpg) no-repeat bottom center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10vw;
+  color: #fff;
+}
 
 //Margin and padding classes
 $space_amounts: (1, 2, 3, 4, 5);
