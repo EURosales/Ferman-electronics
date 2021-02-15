@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700);
+
+$font: "Quicksand", sans-serif;
+$primary-color: #dff6f0;
+$secondary-color: #46b3e6;
+$third-color: #4d80e4;
+$fourth-color: #2e279d;
+
+//Set text color based on the BG
+@function set-text-color($color) {
+  @if (lightness($color) >60) {
+    @return #333;
+  } @else {
+    @return #fff;
+  }
+}
+
+//Set background and text color
+@mixin set-backgrond($color) {
+  background-color: $color;
+  color: set-text-color($color);
+}

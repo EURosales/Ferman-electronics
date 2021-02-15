@@ -1,0 +1,64 @@
+@import "config";
+
+//Margin and padding classes
+$space_amounts: (1, 2, 3, 4, 5);
+@each $space in $space_amounts {
+  /*--------Margin---------*/
+  //all sides
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+  //top and bottom
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+  //left and right
+  .mx-#{$space} {
+    margin: 0 #{$space}rem;
+  }
+  //just top
+  .mt-#{$space} {
+    margin: #{$space}rem 0 0 0;
+  }
+  //just buttom
+  .mb-#{$space} {
+    margin: 0 0 #{$space}rem 0;
+  }
+  //just right
+  .mr-#{$space} {
+    margin: 0 #{$space}em 0 0;
+  }
+  //just left
+  .ml-#{$space} {
+    margin: 0 0 0 #{$space}em;
+  }
+  /*------------Padding-----------*/
+  //all sides
+  .p-#{$space} {
+    padding: #{$space}rem;
+  }
+  //top and bottom
+  .py-#{$space} {
+    padding: #{$space}rem 0;
+  }
+  //left and right
+  .px-#{$space} {
+    padding: 0 #{$space}rem;
+  }
+  //just top
+  .pt-#{$space} {
+    padding: #{$space}rem 0 0 0;
+  }
+  //just buttom
+  .pb-#{$space} {
+    padding: 0 0 #{$space}rem 0;
+  }
+  //just right
+  .pr-#{$space} {
+    padding: 0 #{$space}em 0 0;
+  }
+  //just left
+  .pl-#{$space} {
+    padding: 0 0 0 #{$space}em;
+  }
+}
