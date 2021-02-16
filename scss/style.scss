@@ -12,11 +12,16 @@
   font-family: $font;
 }
 
-.container {
-  width: 80%;
-  margin: 2rem auto;
+.filosofia-container {
+  text-align: center;
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
   p {
-    margin: 1rem 0;
-    text-align: justify;
+    color: rgb(90, 90, 90);
+    font-style: italic;
+    font-size: 1.2rem;
   }
 }
