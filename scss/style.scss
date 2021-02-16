@@ -1,18 +1,21 @@
 @import "config";
-@import "responsive";
 @import "utilities";
+@import "responsive";
+@import "animations";
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: $font;
 }
 
-.container{
+.container {
   width: 80%;
   margin: 2rem auto;
-  p{
+  p {
     margin: 1rem 0;
   }
 }
-
