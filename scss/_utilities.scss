@@ -151,6 +151,46 @@
   }
 }
 
+.btn {
+  padding: 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s;
+  font-size: 16px;
+  border: 2px solid white;
+  color: #ffffff;
+  filter: brightness(0.9);
+
+  &:hover {
+    filter: brightness(1);
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+  }
+}
+
+.insta-btn {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.cot-btn {
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+
 //Margin and padding classes
 $space_amounts: (1, 2, 3, 4, 5);
 @each $space in $space_amounts {
