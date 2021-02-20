@@ -129,8 +129,6 @@
             <h4>Fermán <i class="accent">Electronics</i></h4>
             <p>2021 - todos los derechos reservados.</p>
         </footer>
-
-
         <script src="js/main.js"></script>
     </body>
 
