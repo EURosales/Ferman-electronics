@@ -191,6 +191,10 @@
   );
 }
 
+.hide {
+  display: none;
+}
+
 //Margin and padding classes
 $space_amounts: (1, 2, 3, 4, 5);
 @each $space in $space_amounts {
